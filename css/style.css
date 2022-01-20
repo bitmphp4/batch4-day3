@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 .col-1 { width: 8.33% }
@@ -21,11 +23,23 @@
     border: 1px solid lightgray;
 }
 
+
 .row:after {
     content: '';
     clear: both;
     display: block;
 }
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+
+
 
 .h-50 {height: 50px}
 .h-100 { height: 100px}
@@ -35,3 +49,11 @@
 
 .bg-red { background-color: red}
 .bg-green {background-color: green}
+
+.heading {
+    color: #ff0000;
+}
+
+.heading:hover {
+    color: green;
+}
